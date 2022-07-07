@@ -2,7 +2,7 @@ import datetime
 from math import modf
 from math import trunc
 
-def date_convert(type, value, convert_to):
+def convert_date(type, value, convert_to):
     type = type.lower()
     convert_to = convert_to.lower()
     
@@ -196,4 +196,4 @@ if __name__=='__main__':
         type = sys.argv[1]
         value = sys.argv[2]
         convert_to = sys.argv[3]
-        print(date_convert(type, value, convert_to))
+        print(convert_date(type, value, convert_to))
