@@ -73,6 +73,7 @@ def date2doy(value):
         return None
     (year, month, day) = parse_date(value)
     doy = datetime.date(year, month, day).strftime('%j')
+    doy = str(year)[-2:]+doy
     return doy
 
 def jd2date(value):
