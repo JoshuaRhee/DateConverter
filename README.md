@@ -1,4 +1,4 @@
-# DateConverter
+# **DateConverter**
 
 ## Information:
 * This function converts a date to a different format.
